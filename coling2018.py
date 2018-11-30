@@ -23,7 +23,8 @@ from keras.layers.wrappers import Bidirectional
 from gensim.models import *
 
 # load data
-dataset_path = 'D:\pytorch\model\dataset/'
+#dataset_path = 'D:\pytorch\model\dataset/'
+dataset_path = './'
 junk_list = []  # 垃圾词列表
 weibo = []  # 微博语料
 test = []  # 测试集
